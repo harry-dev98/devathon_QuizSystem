@@ -1,0 +1,24 @@
+{
+  "name": "quizsystem_server",
+  "version": "1.0.0",
+  "description": "Api handler for the quiz system",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "harry-dev98 (hs921818@student.nitw.ac.in)",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.0.0",
+    "moment": "^2.29.0",
+    "mongoose": "^5.10.7",
+    "nodemailer": "^6.4.12",
+    "nodemailer-smtp-transport": "^2.7.4"
+  }
+}
