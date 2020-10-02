@@ -17,6 +17,8 @@ let UserCourseSchema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: "Course",
     },
+    isActive: Boolean,
+    
 }, {
     timestamps:true
 });
