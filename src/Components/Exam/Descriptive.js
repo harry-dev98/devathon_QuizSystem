@@ -37,7 +37,7 @@ export default class Desc extends React.Component{
                         ip.click();
                     }}                                    
                 >
-                    <Subject fontSize='large' />
+                    {/* <Subject fontSize='large' /> */}
                 </IconButton> 
                 <input
                     accept="image/*"

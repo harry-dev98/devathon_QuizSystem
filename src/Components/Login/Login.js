@@ -4,7 +4,7 @@ import {
     Typography,
     Grid,
     TextField,
-    RaisedButton,
+    Button as RaisedButton,
 } from '@material-ui/core';
 
 
@@ -33,7 +33,7 @@ export default class Login extends React.Component{
                     <RaisedButton 
                         label="Submit" 
                         primary={true} 
-                        style={style} 
+                        // style={style} 
                         onClick={(event) => this.handleClick(event)}
                     />
                 </Grid>
