@@ -30,7 +30,7 @@ export default function ExamArea(props){
                         edge="start" 
                         color="inherit" 
                         title="Before"
-                        style={styles.icon}
+                        // style={styles.icon}
                         onClick={this.props.handlePrev}                                    
                     >
                         Prev<NavigateBefore/>
@@ -41,7 +41,7 @@ export default function ExamArea(props){
                         edge="start" 
                         color="inherit" 
                         title="Next"
-                        style={styles.icon}
+                        // style={styles.icon}
                         onClick={this.props.handleNext}            
                     >
                         Next<NavigateNext/>

@@ -22,7 +22,7 @@ export default class MCQS extends React.Component{
                             onClick={(event) => event.stopPropagation()}
                             onFocus={(event) => event.stopPropagation()}
                             control={<Checkbox onChange={this.props.handleChange} />}
-                            label={opt}
+                            label={"True"}
                         />
                         <FormControlLabel
                             aria-label="False"
@@ -30,7 +30,7 @@ export default class MCQS extends React.Component{
                             onClick={(event) => event.stopPropagation()}
                             onFocus={(event) => event.stopPropagation()}
                             control={<Checkbox onChange={this.props.handleChange} />}
-                            label={opt}
+                            label={"False"}
                         />    
                     </AccordionSummary>
                 </Accordion>

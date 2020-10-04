@@ -17,7 +17,9 @@ let QuestionSchema = new mongoose.Schema({
     },
     ques: String,
     qtype: String,
-    marks: String,
+    maxmarks: String,
+    negmarks: String,
+    partialmarks: String,
     options: [{
         type: String,
     }, ],

@@ -7,6 +7,7 @@ import {
     Typography,
     Grid,
     IconButton,
+    Button,
 } from '@material-ui/core';
 
 import {Home} from '@material-ui/icons';
@@ -64,7 +65,6 @@ export default class SetTest extends React.Component{
                                 color="inherit" 
                                 aria-label="home"
                                 title="Home"
-                                style={styles.icon}
                                 onClick={()=>{
                                     window.location.href = "/";
                                 }}                                    
@@ -80,10 +80,9 @@ export default class SetTest extends React.Component{
                             <Button
                                 variant="contained"
                                 color="primary"
-                                onClick={handleNext}
-                                className={classes.button}
+                                onClick={""}
                             >
-                            {activeStep === steps.length - 1 ? 'Done' : 'Next'}
+                            {this.state.activeStep === steps.length - 1 ? 'Done' : 'Next'}
                             </Button>
                         </div>
                     </React.Fragment>
