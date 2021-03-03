@@ -1,12 +1,12 @@
 var router = require("express").Router();
 
 const UserRouter = require("./Login");
-const PostRouter = require("./Exam");
-const MatchRouter = require("./Score");
+const ExamRouter = require("./Exam");
+const ScoreRouter = require("./Score");
 
 router.use("/user", UserRouter);
-// router.use("/post", PostRouter);
-// router.use("/match", MatchRouter);
+router.use("/exam", ExamRouter);
+router.use("/score", ScoreRouter);
 
 router.get("/", (req, res) => {
   res.send("WELCOME TO API ;)");

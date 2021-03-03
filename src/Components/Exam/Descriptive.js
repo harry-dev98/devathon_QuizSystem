@@ -1,17 +1,26 @@
 import React from 'react';
 import {
     IconButton,
-    Typography,
-    Accordion,
-    AccordionSummary,
-    FormControlLabel,
-    Checkbox,
     TextareaAutosize,
 } from '@material-ui/core';
 
 import { ExamArea } from '../Components'
 
 export default class Desc extends React.Component{
+    constructor(){
+    }
+
+    componentDidMount(){
+    }
+
+    componentWillUnmount(){
+    }
+
+    componentDidUpdate(){
+
+        console.log('refreshed');
+    }
+
     handleFileChange = ()=>{
         console.log("filechanged");
     }
